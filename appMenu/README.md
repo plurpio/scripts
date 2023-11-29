@@ -1,8 +1,8 @@
 # </> AppMenu
-###### ⊚ A simple program menu for linux.
+#### ⊚ A simple program menu for linux.
 This is a small script that launches a subset of options set by a config file
 
-###### ⊚ Syntax
+#### ⊚ Syntax
 The syntax for the config is as follows:
 The **[1]** is the command to launch the program in the script.
 **Option** is a purely visual/cosmetic name to see in the interface.
