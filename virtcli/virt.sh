@@ -6,10 +6,10 @@ choice=$(echo -e "Add\n$(virsh list --all --name)" | wofi --dmenu --prompt="Sele
 case "$choice" in
   Add)
     kitty -e ~/scripts/virtcli/virtAdd.sh
-    remote-viewer spice://127.0.0.1:5900 -f -r
+    remote-viewer spice://127.0.0.1:5900 -f
     ;;
   *)
     virsh -q start $choice
-    remote-viewer spice://127.0.0.1:5900 -f -r
+    remote-viewer spice://127.0.0.1:5900 -f
     ;;
 esac
